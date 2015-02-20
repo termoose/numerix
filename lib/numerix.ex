@@ -1,7 +1,7 @@
 defmodule Numerix do
 
 	def solve(f, x_0, iters) do
-		Enum.reduce(1..iters,	x_0,
+		Enum.reduce(1..iters, x_0,
 			fn(_i, acc) ->
 				newton_step(f, acc)
 			end)

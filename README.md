@@ -1,5 +1,4 @@
 Numerix
 =======
 
-** TODO: Add description **
-# Numerix
+Native numerics library for Elixir
